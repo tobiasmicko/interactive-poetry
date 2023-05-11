@@ -1,0 +1,193 @@
+
+/* GENERAL */
+
+@font-face {
+    font-family: playfair-reg;
+    src: url(PlayfairDisplay-Regular.ttf);
+}
+
+@font-face {
+    font-family: playfair-ita;
+    src: url(PlayfairDisplay-Italic.ttf);
+}
+
+
+:root {
+    --white: #FCFCFC;
+    --grey: #AEAEAE;
+    --black: #202020;
+}
+
+
+/* Stylesheet */
+
+#contentWrap {
+    padding-top: 14%;
+    margin-right: 24%;
+    margin-left: 24%;
+}
+
+h1 {
+    font-family: playfair-reg;
+    font-weight: 500;
+    font-size: 64px;
+    letter-spacing: -1px;
+    line-height: 64px;
+
+    color: var(--black);
+    margin: 0px;
+    white-space: pre-line;
+}
+
+h2 {
+    font-family: playfair-reg;
+    font-weight: 400;
+    color: var(--black);
+    font-size: 22px;
+    letter-spacing: 0.15px;
+    margin: 0px;
+    margin-top: 20px;
+    white-space: pre-line;
+    line-height: 32px;
+}
+
+#creditSection {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 28px;
+
+
+    border-top: solid;
+    border-width: 0.1px;
+}
+
+#creditSection p {
+    font-family: Monaco;
+    font-weight: 400;
+    color: var(--black);
+    font-size: 11px;
+    letter-spacing: 0.25px;
+    text-transform: uppercase;
+}
+
+#creditSection p:nth-child(3) {
+    color: var(--grey);
+}
+
+#creditSection a {
+    text-decoration: none;
+}
+
+.instruction p {
+    font-family: Monaco;
+    font-weight: 400;
+    color: var(--black);
+    font-size: 11px;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+}
+
+.instruction {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 12vh;
+    margin-bottom: 28px;
+}
+
+
+#poem {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 64px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.inputBlock {
+    border-style: solid; 
+    border-radius: 8px;
+    border-color: #E6E6E6;
+    background-color: #F9F9F9;
+   
+    padding: 24px;
+
+    display: flex;
+    align-items: center;
+    gap: 24px;
+
+    margin-bottom: 12px;
+
+    width: 30vw;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+form div {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+label {
+    font-family: Monaco;
+    font-weight: 800;
+    color: var(--grey);
+    font-size: 11px;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+    margin: 0px;
+    padding-top: 3px;
+}
+
+input {
+    width: 20vw;
+    height: 18px;
+}
+
+#long {
+    width: 19.5vw;
+}
+
+#submit {
+    font-family: Monaco;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 0.75px;
+    background-color: #E6E6E6;
+    border: none;
+    color: var(--black);
+    padding-top: 7px;
+    padding-bottom: 24px;
+    text-decoration: none;
+    cursor: pointer;
+    align-items: center;
+    margin-top: 16px;
+} 
+
+
+.cta a {
+    font-family: playfair-reg;
+    font-weight: 400;
+    color: var(--black);
+    font-size: 22px;
+    letter-spacing: 0.15px;
+    line-height: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: underline;
+}
+
+.cta {
+    margin-bottom: 10vh;
+}
